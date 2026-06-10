@@ -1,12 +1,12 @@
-# 💊 iDrugs — Plataforma de Delivery de Medicamentos
+iDrugs — Plataforma de Delivery de Medicamentos
 
 > Projeto acadêmico desenvolvido como trabalho de conclusão de curso / disciplina de Engenharia de Software.
 
-## 📋 Sobre o Projeto
+Sobre o Projeto
 
 O **iDrugs** é uma plataforma web de delivery de medicamentos focada em **Juazeiro do Norte – CE**. Conecta clientes a farmácias locais, permitindo busca de produtos, pedidos online e acompanhamento de entrega com cálculo de frete baseado na localização real dos bairros da cidade.
 
-## ✨ Funcionalidades
+Funcionalidades
 
 ### Cliente (index.html)
 - Cadastro e login com verificação por e-mail (OTP)
@@ -31,7 +31,7 @@ O **iDrugs** é uma plataforma web de delivery de medicamentos focada em **Juaze
 - Cálculo de frete por coordenadas GPS (fórmula de Haversine)
 - Envio de e-mail para verificação de conta e recuperação de senha
 
-## 🗺️ Cálculo de Frete
+## Cálculo de Frete
 
 O frete é calculado com base na distância real (Haversine) entre os bairros de Juazeiro do Norte:
 
@@ -44,7 +44,7 @@ O frete é calculado com base na distância real (Haversine) entre os bairros de
 
 Farmácias fora de Juazeiro do Norte exibem **"Frete sob encomenda"**.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 | Camada | Tecnologia |
 |--------|-----------|
@@ -55,7 +55,7 @@ Farmácias fora de Juazeiro do Norte exibem **"Frete sob encomenda"**.
 | Frontend | HTML5 + CSS3 + JavaScript puro |
 | E-mail | SMTP (Gmail) |
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 idrugs/
@@ -74,7 +74,7 @@ idrugs/
 └── requirements.txt        # Dependências Python
 ```
 
-## ⚙️ Como Executar Localmente
+## Como Executar Localmente
 
 ### Pré-requisitos
 - Python 3.10+
@@ -111,7 +111,7 @@ flask run
 
 Acesse em: `http://localhost:5000`
 
-## 🔐 Variáveis de Ambiente
+## Variáveis de Ambiente
 
 Crie um arquivo `idrugs.env` baseado no template:
 
@@ -124,9 +124,9 @@ EMAIL_FROM_NAME=iDrugs Farmácias
 FLASK_ENV=development
 ```
 
-> ⚠️ **Nunca versione o arquivo `idrugs.env` com credenciais reais.**
+> **Nunca versione o arquivo `idrugs.env` com credenciais reais.**
 
-## 📌 Regiões de Juazeiro do Norte Suportadas
+## Regiões de Juazeiro do Norte Suportadas
 
 | Região | Bairros |
 |--------|---------|
@@ -136,10 +136,10 @@ FLASK_ENV=development
 | OESTE | João Cabral, Frei Damião, Campo Alegre, Jardim Gonzaga, Cidade Universitária |
 | LESTE | Lagoa Seca, Planalto, Triângulo, São José, Romeirão, Antônio Vieira |
 
-## 👥 Autores
+## Autores
 
 Desenvolvido como projeto acadêmico — [Instituição / Curso / Ano]
 
-## 📄 Licença
+## Licença
 
 Este projeto é de uso acadêmico. Para outros fins, entre em contato com os autores.
