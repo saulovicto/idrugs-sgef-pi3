@@ -1,4 +1,4 @@
-iDrugs — Plataforma de Delivery de Medicamentos
+Idrugs – Sistema de Gestão de Entrega para Farmácias
 
 > Projeto acadêmico desenvolvido como trabalho de conclusão de curso / disciplina de Engenharia de Software.
 
